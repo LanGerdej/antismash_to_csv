@@ -1,2 +1,18 @@
-# antismash_to_csv
-This script scrapes multiple antismash results in the same directory and outputs a CSV spreadsheet containing metabolite, region and known similar cluster data for each analyzed genome.
+I made this simple script, in a bit of a rush, to summarize a large number of antismash results and store them in a single CSV spreadsheet.
+
+How to use:
+
+1. If havent't yet installed beautifulsoup4 and pandas, you can do that in your terminal by running:
+pip install beautifulsoup4 pandas
+
+2. Click on "Code" button in the upper right corner of this github page, click "download zip" and save into a desired directory.
+
+3. Extract downloaded file.
+
+4. Give file execute permissions by opening your terminal and running:
+chmod +x "path to extracted antismash_to_csv.py file"
+
+5. Run the script by running:
+"path to the extracted antismash_to_csv.py file" -in "path to the directory containing multiple (exclusively) antismash output files" -out "desired existing output directory" -name "desired name of .csv file output" 
+
+Output is a CSV spreadsheet containing metabolite, region and known similar cluster information for each genome analyzed with antismash.
