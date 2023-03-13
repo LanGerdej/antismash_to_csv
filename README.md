@@ -13,6 +13,6 @@ pip install beautifulsoup4 pandas
 chmod +x "path to extracted antismash_to_csv.py file"
 
 5. Run the script by running:
-"path to the extracted antismash_to_csv.py file" -in "path to the directory containing multiple (exclusively) antismash output files" -out "desired existing output directory" -name "desired name of .csv file output" 
+"path to the extracted antismash_to_csv.py file" -in "path to the directory containing multiple (exclusively) antismash output files" -out "desired existing output directory" -name "desired name of .csv output file" 
 
 Output is a CSV spreadsheet containing metabolite, region and known similar cluster information for each genome analyzed with antismash.
