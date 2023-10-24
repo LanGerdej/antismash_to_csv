@@ -2,7 +2,7 @@ I made this simple script, in a bit of a rush, to summarize a large number of an
 
 How to use:
 
-1. If haven't yet installed beautifulsoup4 and pandas, you can do that in your terminal by running: pip install beautifulsoup4 pandas
+1. If you haven't yet installed beautifulsoup4 and pandas, you can do that in your terminal by running: pip install beautifulsoup4 pandas
 
 2. Click on "Code" button in the upper right corner of this github page, click "download zip" and save into a desired directory.
 
