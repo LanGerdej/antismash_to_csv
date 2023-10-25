@@ -10,6 +10,8 @@ How to use:
 
 4. Give file execute permissions by opening your terminal and running: chmod +x "path to extracted antismash_to_csv.py file"
 
-5. Run the script by running: "path to the extracted antismash_to_csv.py file" -in "path to the directory containing multiple (exclusively) antismash output files" -out "desired existing output directory" -name "desired name of .csv output file"
+5. Run the script by running: "path to the extracted antismash_to_csv.py file" -in "path to the directory containing multiple **exclusively** antismash output files" -out "desired existing output directory" -name "desired name of .csv output file"
 
 Output is a CSV spreadsheet containing metabolite, region and known similar cluster information for each genome analyzed with antismash. If you need help you can use "--help" flag
+
+**In order for the program to work -in argument directory shouldn't contain any files other than antismash result folders (each containining index.html)**
